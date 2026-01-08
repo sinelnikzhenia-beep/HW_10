@@ -1,0 +1,38 @@
+    1  git config --global user.name "Nitro"
+    2  git config --global user.email sinelnik.zhenia@gmail.com
+    3  git config --global --list
+    4  git clone https://github.com/sinelnikzhenia-beep/test-6-.git
+    5  cd HW_10
+    6  cd HW_10
+    7  cd HW_10
+    8  GGGGGG
+    9  git clone https://github.com/sinelnikzhenia-beep/HW_10.git
+   10  cd HW_10
+   11  pwd
+   12  touch text_ignore.txt
+   13  ls
+   14  echo text_ignore.txt >> .gitignore
+   15  git status
+   16  git add .
+   17  git commit -m "Add text_ignore.txt to .gitignore"
+   18  git status
+   19  touch main_test.txt
+   20  git add .
+   21  git commit -m "Add main_test.txt"
+   22  git status
+   23  git checkout -b develop
+   24  git branch
+   25  touch develop_test.txt
+   26  git add .
+   27  git commit -m "Add develop_test.txt"
+   28  git status
+   29  echo "just a small change" >> develop_test.txt
+   30  git status
+   31  git add .
+   32  git commit -m "Update develop_test.txt with a small change"
+   33  git status
+   34  git checkout main
+   35  git branch
+   36  git merge develop
+   37  git log --oneline --graph --all
+   38  history > command_list.csv
